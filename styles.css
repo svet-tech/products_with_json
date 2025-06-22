@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(244, 255, 255);
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    width: 45%;
+
+}
+
+#add-form {
+    width: 550px;
+    padding: 10px;
+    border: solid black 1px;
+    margin-bottom: 35px;
+    background-color: rgb(172, 239, 239);
+}
+
+.categories {
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    color: rgb(48, 126, 126);
+
+}
+
+.input-block {
+    width: 505px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 7px;
+}
+
+#product-descript {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    width: 150px;
+    background-color: rgb(59, 126, 103);
+}
+
+.block-cat:hover {
+    color: blue;
+}
+
+.show-btn {
+    width: 135px;
+    background-color: rgb(144, 208, 150);
+    position: absolute;
+    top: 150px;
+    right: 150px;
+
+}
+
+.show-btn:hover {
+    background-color: rgb(68, 217, 83);
+
+}
+
+.title {
+    text-align: center;
+}
+
+#search-input {
+    margin: 15px;
+}
+
+.card-wrap {
+    width: 400px;
+    height: 270px;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.card-info {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.view-btn {
+    width: 105px;
+    border: solid black 1px;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 7px;
+    background-color: rgb(210, 179, 238);
+}
+
+.delete-btn {
+    width: 105px;
+    border: solid black 1px;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 7px;
+    background-color: rgb(230, 106, 131);
+
+}
+
+.reviews-btn {
+    width: 105px;
+    border: solid black 1px;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 7px;
+    background-color: rgb(143, 239, 181);
+
+}
+
+.item-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-descr {
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.search-btn {
+    width: 105px;
+    background-color: rgb(134, 191, 194);
+    padding-left: 4px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.reviews-block {
+    z-index: 7;
+    margin-top: -15px;
+    position: sticky;
+    padding-top: 5px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.reviews-list {
+    z-index: 7;
+    background-color: beige;
+    padding-left: 4px;
+    border-radius: 8px;
+   
+
+}
+
+.total {
+    width: 220px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    border: solid black 2px;
+    margin-left: 8px;
+}
